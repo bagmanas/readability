@@ -45,5 +45,3 @@ class NewsParser(HTMLParser):
     def get_text(self):
         return "\n".join(filter(None, self.text))
 
-    def error(self, message):
-        pass
